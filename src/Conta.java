@@ -22,7 +22,7 @@ public abstract class Conta implements IConta {
 	public void sacar(double valor) {
 		saldo -= valor;
 		Transacao transacao = new Transacao();
-		transacoes.add(transacao.getInfo(" Saque de R$ " + valor));
+		transacoes.add(transacao.getInfo("Saque de R$ " + valor));
 	}
 
 	@Override

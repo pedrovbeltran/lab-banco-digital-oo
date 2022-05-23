@@ -6,7 +6,6 @@ public class Transacao {
     private LocalDateTime data;
 	private static int ID_TRANSACAO = 1;
 
-    //Constructor
     public Transacao() {
         this.id = ID_TRANSACAO++;
         this.data = LocalDateTime.now();
